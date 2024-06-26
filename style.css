@@ -7,18 +7,46 @@ header{
     width: 1310px;
     height: 95px;
 }
-body {
-    width: 1310px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+#about{ 
+    grid-column: 1/-1;
+    margin-bottom: 5px;
+}
+
    
+
+section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .about{
     background-color: #FFFFFF;
     padding-bottom: 10px;
+    text-align: left;
+}
+body {
+    width: 1310px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+figure{
+    padding: 4px;
+    display: flex;
+	flex-direction: column;
+    
 
+    
+}
+figcaption {
+    
+  color: black;
+  padding: 2px;
+  text-align: center;
+}
+img {
+	display: block;
+	width: 100%;
+}
 #contact form{
     background-color: #000000;
 }
